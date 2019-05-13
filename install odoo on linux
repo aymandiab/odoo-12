@@ -30,3 +30,134 @@ sudo su - odoo -s /bin/bash
 
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 12.0 --single-branch
 exit
+----------------------------------------------------------------------------------------------
+-another way to install odoo 
+
+
+
+----------------------------------------------
+wget https://download.anydesk.com/linux/anydesk_4.0.1-1_amd64.deb
+sudo dpkg -i anydesk_4.0.1-1_amd64.deb
+sudo apt-get install -f
+
+--------------------------------------------------
+wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
+
+sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin                    (working)
+sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin                 
+---------------------------------------------------------------------------
+sudo wget https://builds.wkhtmltopdf.org/0.12.1.3/wkhtmltox_0.12.1.3-1~bionic_amd64.deb
+sudo dpkg -i wkhtmltox_0.12.1.3-1~bionic_amd64.deb
+sudo apt-get install -f
+-----------------------------------------------
+-install odoo 12 best way 
+
+
+sudo apt-get update 
+sudo apt-get upgrade 
+
+sudo apt-get install libpq-dev
+
+sudo apt-get install libjpeg-dev
+
+
+
+sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/12.0/odoo_install.sh
+
+sudo chmod +x odoo_install.sh
+
+sudo ./odoo_install.sh
+
+-------------------------------------
+wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.trusty_amd64.deb
+
+sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
+  sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
+
+--------------------------------------------------------------
+
+sudo chmod -r 777  muk/
+-------------------------------
+sudo service odoo-server restart  
+-------------------------------------
+wget  "http: the link of file zip"
+------------------------------------------------------------
+sudo unzip /folder/zip file      to unzip file in the current directory
+--------------------------------------------
+3CX Phone System
+-----------------------------------------------------------------------------
+ssh -i "itckw.pem" ubuntu@ec2-3-16-89-203.us-east-2.compute.amazonaws.com
+
+
+sudo apt-get update
+sudo apt-get upgrade 
+sudo apt-get install wget subversion git bzr bzrtools python-pip python3-pip gdebi-core -y pysassc
+
+
+-------------------------
+sudo apt install python3-pip     to install pip
+pip3 install scrapy 
+----------------------------
+-install python  
+sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo apt-get update 
+sudo apt-get install pyhton3.6
+----------------------------------
+sudo ps aux | grep odoo    to find the service 
+sudo kill -9 id service    to kill it 
+
+-------------------------
+
+sudo apt-get install postgresql
+
+sudo su - postgres           for create role as super user
+----------------------------------
+-install pycharm 
+sudo snap install pycharm-community --classic
+
+--------------------------------
+- to add the path  of custom addons
+sudo nano /etc/odoo-server.conf 
+addons_path = /opt/odoo/addons,/opt/odoo/odoo/addons
+
+
+
+https://www.cybrosys.com/blog/how-to-install-odoo-12-on-ubuntu-16-04
+
+--------------------------------
+
+sudo apt-get install locate       to know the location of file 
+
+-----------------------------------------
+file muk_dum    to know the type of file 
+-------------------
+sudo apt-get update
+sudo apt-get install git -y
+git clone https://github.com/NwayNway/test-repo-789.git       to download from github
+----------------------------------------------------------------------
+cp -a /source/.  /destination/        copy all files 
+rm -r mydirectory    remove folder
+----------------------------------------
+i want to make reports 
+
+-------------------------------------------------------
+installation 
+
+sudo apt-get install libpq-dev
+
+sudo apt-get install libjpeg-dev
+
+
+sudo apt-get update 
+sudo apt-get upgrade 
+
+sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/12.0/odoo_install.sh
+
+sudo chmod +x odoo_install.sh
+
+sudo ./odoo_install.sh
+------------------------------------
+pytz Babel decorator docutils lxml requests ebaysdk feedparser greenlet gevent html2text MarkupSafe  
+Jinja2 libsass Mako pbr mock num2words soupsieve beautifulsoup4 ofxparse passlib olefile Pillow  psutil psycopg2 pyparsing
+pydot pyldap PyPDF2 pyserial python-dateutil pyusb qrcode reportlab suds-jurko python-stdnum vatnumber
+vobject Werkzeug XlsxWriter xlwt xlrd
